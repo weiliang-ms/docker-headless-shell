@@ -1,4 +1,4 @@
-FROM chromedp/docker-headless-shell
+FROM chromedp/headless-shell:latest
 RUN \
     apt-get update -y \
     && apt-get install -y xfonts-intl-chinese wqy* ttf-wqy-zenhei\
