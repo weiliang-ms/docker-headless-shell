@@ -1,3 +1,9 @@
+添加中文字符集支持，使用方式不变
+
+```
+$ docker run -idt --name chrome-headless -p 9222:9222 xzxwl/chromedp-headless-shell:latest
+```
+
 # About headless-shell
 
 The [headless-shell][headless-shell] project provides a Docker image,
